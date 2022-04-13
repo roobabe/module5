@@ -36,21 +36,35 @@ struct ContentDetailView: View {
                         model.nextLesson()
                     }, label: {
                         ZStack {
-                            Rectangle()
-                                .foregroundColor(.green)
-                                .cornerRadius(10)
-                                .shadow(color: .gray, radius: 5, x: 5, y: 5)
+                            RectangleCard(color: Color.green)
                                 .frame(height: 48)
+                            
                             Text("Next Lesson: \(model.currentModule!.content.lessons[model.currentLessonIndex + 1].title)")
                                 .foregroundColor(.white)
                                 .bold()
                         }
-                })
-        }
+                    })
+                }
+                else {
+                    //show the complete button instead
+                    Button(action: {
+                        //Take the user back to the homeView
+                        model.currentContentSelected = nil
+                    }, label: {
+                        ZStack {
+                            RectangleCard(color: Color.green)
+                                .frame(height:48)
+                            
+                            Text("Complete")
+                                .foregroundColor(.white)
+                                .bold()
+                        }
+                    })
+                }
             }
             .padding()
             .navigationTitle(lesson?.title ?? "")
-
+            
         }
     }
 }

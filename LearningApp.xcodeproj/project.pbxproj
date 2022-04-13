@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B39E1472806542000358CF7 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39E1462806542000358CF7 /* CodeTextView.swift */; };
+		6B39E181280668EB00358CF7 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39E180280668EB00358CF7 /* RectangleCard.swift */; };
 		6B7B54DF2803880800950724 /* LearningAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B54DE2803880800950724 /* LearningAppApp.swift */; };
 		6B7B54E12803880800950724 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B54E02803880800950724 /* HomeView.swift */; };
 		6B7B54E32803880900950724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B54E22803880900950724 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		6B39E1462806542000358CF7 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		6B39E180280668EB00358CF7 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		6B7B54DB2803880700950724 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7B54DE2803880800950724 /* LearningAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningAppApp.swift; sourceTree = "<group>"; };
 		6B7B54E02803880800950724 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				6B7B54FD2806080100950724 /* ContentViewRow.swift */,
 				6B7B54FF28060B3C00950724 /* ContentDetailView.swift */,
 				6B39E1462806542000358CF7 /* CodeTextView.swift */,
+				6B39E180280668EB00358CF7 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				6B39E1472806542000358CF7 /* CodeTextView.swift in Sources */,
 				6B7B54F22804E6D200950724 /* ContentModel.swift in Sources */,
 				6B7B54F82804EF1200950724 /* Models.swift in Sources */,
+				6B39E181280668EB00358CF7 /* RectangleCard.swift in Sources */,
 				6B7B5505280637DE00950724 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

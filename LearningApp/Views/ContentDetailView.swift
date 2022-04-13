@@ -26,7 +26,8 @@ struct ContentDetailView: View {
                         .cornerRadius(10)
                         .frame(height: geo.size.width * videoRatio)
                 }
-                //TODO: Description
+                //Description
+                CodeTextView()
                 
                 //Next Lesson button
                 if model.hasNextLesson() {
@@ -48,6 +49,7 @@ struct ContentDetailView: View {
         }
             }
             .padding()
+            .navigationTitle(lesson?.title ?? "")
 
         }
     }

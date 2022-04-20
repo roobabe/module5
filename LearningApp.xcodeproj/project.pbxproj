@@ -23,6 +23,7 @@
 		6B7B550028060B3C00950724 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B54FF28060B3C00950724 /* ContentDetailView.swift */; };
 		6B7B550328062CAE00950724 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B550228062CAE00950724 /* AVKit.framework */; };
 		6B7B5505280637DE00950724 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B5504280637DE00950724 /* Constants.swift */; };
+		6BC7D7AD280F5597001C1C58 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7D7AC280F5597001C1C58 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		6B7B54FF28060B3C00950724 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		6B7B550228062CAE00950724 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		6B7B5504280637DE00950724 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6BC7D7AC280F5597001C1C58 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				6B7B54FF28060B3C00950724 /* ContentDetailView.swift */,
 				6B39E1462806542000358CF7 /* CodeTextView.swift */,
 				6B39E180280668EB00358CF7 /* RectangleCard.swift */,
+				6BC7D7AC280F5597001C1C58 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC7D7AD280F5597001C1C58 /* TestView.swift in Sources */,
 				6B7B54E12803880800950724 /* HomeView.swift in Sources */,
 				6B7B54FA2805EA2700950724 /* HomeViewRow.swift in Sources */,
 				6B7B54FC2805FCC800950724 /* ContentView.swift in Sources */,
